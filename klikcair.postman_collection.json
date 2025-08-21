@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "c4b1ae8a-7845-45be-a82b-66f25a458d9e",
+		"name": "klikcair",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6560004"
+	},
+	"item": [
+		{
+			"name": "Get Balance",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTU3MDIwNDAsInVzZXJfaWQiOjF9.YDX9m4M-GiXZjivSDCv1wLXa5p2bViEIycV-9WlJ4qA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/wallets/balance/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"wallets",
+						"balance",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

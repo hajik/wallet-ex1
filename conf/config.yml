@@ -1,0 +1,19 @@
+app:
+  name: waller-ex1
+  version: V1
+  env: DEVELOPMENT
+  host: 0.0.0.0
+  port: 8080
+postgresql:
+  host: localhost
+  port: 5432
+  name: klikcair
+  user: postgres
+  password: qwerty123
+  time_zone: Asia/Jakarta
+  timeout: 120
+  ssl_mode: disable
+  log_lvl: 4
+transaction:
+  withdraw:
+    min: 10000
