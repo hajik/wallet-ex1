@@ -1,10 +1,8 @@
 # wallet-ex1
 
-- Link Google Drive: 
-
 ## Config
-- Check configuration in here: conf/config.yml
-- Database in root directory with filename klikcair.sql
+- Check configuration in here: ``conf/config.yml``
+- Database name ``klikcair.sql``
 
 ## Install
 - go mod tidy
@@ -22,6 +20,7 @@
 
 
 [POST] /api/v1/transactions/withdraw
+Request JSON Body:
 {
     "code": "qwerty",
     "amount": 9000

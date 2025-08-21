@@ -9,7 +9,7 @@ postgresql:
   port: 5432
   name: klikcair
   user: postgres
-  password: qwerty123
+  password: password
   time_zone: Asia/Jakarta
   timeout: 120
   ssl_mode: disable
